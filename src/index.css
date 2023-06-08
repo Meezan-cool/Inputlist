@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,129 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* .container {
+  background: linear-gradient(135deg,#07f562 0%,#061a01 90%);
+  padding: 20px;
+  color: #fff;
+  font-family: cursive;
 }
+
+h1 {
+  text-align: center;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+select {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+.user-details {
+  background: linear-gradient(135deg,#0ce9d6 ,#1469e9 );
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .select-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 100%;
+  }
+} */
+body{
+  background: #b14a4a;
+  padding: 2%;
+  /* height: 100vh;
+  width: 100%; */
+}
+.container {
+  background: linear-gradient(135deg,#07f562 0%,#061a01 90%);
+  padding:  20px ;
+  color: #fff;
+  font-family: cursive;
+  border-radius: 15px;
+}
+
+h1 {
+  text-align: center;
+  background: linear-gradient(135deg,#f05c5c 0%,#9e9439 75%);
+  border-radius: 9px;
+  padding:  10px;
+  /* margin: 10%; */
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+  color: #fff;
+}
+
+select {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  width: 200px;
+  
+}
+
+.user-details {
+  background: linear-gradient(135deg,#0ce9d6 ,#1469e9 );
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .select-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  select {
+    width: 100%;
+  }
+}
+
